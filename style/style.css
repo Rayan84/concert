@@ -1,9 +1,32 @@
 
 body {
+  width: 100%;
+  margin-top: 0;
 
 }
 
+.first-nav {
+  margin-top: 0;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
 
+.first-nav li {
+  margin-right: 20px;
+  list-style: none;
+  font-size: 20px;
+  top: 0;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.color-white {
+  color: white;
+}
 
 @media screen and (max-width: 768px){
   body {
