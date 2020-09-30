@@ -231,6 +231,13 @@ td {
   margin: auto;
 }
 
+.border-1-px-grey {
+  border: solid #D3D3D3 1px;
+}
+
+.border-radius-10 {
+  border-radius: 8px;
+}
 
 
 @media screen and (max-width: 768px){
