@@ -150,20 +150,42 @@ padding-bottom: 30px;
 
 /* Tickets page */
 
-table{
+.tickets-section-1 {
+  padding-bottom: 20px;
+}
+
+.table-1{
   border: 8px solid transparent;
 	border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
 	              #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
-thead {
+.table-1 thead {
   color: white;
 }
 
-td {
+ table thead td,
+ table tbody tr td {
   width: 25%;
   margin: 30px;
 }
+
+#order-now {
+  width: 20%;
+  padding: 10px;
+  border-radius: 3px;
+  margin: auto;
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#order-now:hover {
+  color: black;
+}
+
+/* General Classes */
 
 .list-style-none {
   list-style: none;
@@ -181,8 +203,20 @@ td {
   text-decoration: underline grey;
 }
 
+.background-orange {
+  background-color: #EC5242;
+}
+
 .background-d3d3d3 {
   background-color: #d3d3d3;
+}
+
+.background-light {
+  background-color: #f8f9fa;
+}
+
+.background-272a31 {
+  background-color: #272A31;
 }
 
 .text-decoration-none {
@@ -215,10 +249,6 @@ td {
 
 .w-70-percent {
   width: 70%;
-}
-
-.background-272a31 {
-  background-color: #272A31;
 }
 
 .font-size-40px {

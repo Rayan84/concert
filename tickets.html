@@ -24,11 +24,16 @@
         </ul>
       </div>
     </header>
+
+
+
+
     <main>
+      <section class="background-light tickets-section-1">
       <h1 class="text-align-center">Select Ticket</h1>
       <p class="text-align-center border-1-px-grey border-radius-10 w-50-percent margin-auto"><span class="color-orange">STEP 1    </span>   Please select the type of your ticket</p>
-      <div>
-        <table class="width-70-percent margin-auto">
+       <div class="margin-5-px">
+        <table class="margin-auto width-70-percent table-1">
           <thead class="background-272a31 text-align-center">
             <td>Ticket Type</td>
             <td>Price</td>
@@ -63,13 +68,50 @@
           </tbody>
         </table>
       </div>
-    </main>
+    </section>
+    <section>
+      <h1 class="text-align-center">Select optionals below</h1>
+      <p class="text-align-center border-1-px-grey border-radius-10 w-50-percent margin-auto"><span class="color-orange">STEP 2 </span>Optional front seats & Bingo tickets</p>
+      <div class="margin-5-px">
+       <table class="margin-auto width-70-percent text-align-center border-1-px-grey">
+         <thead class="background-272a31 text-align-center color-white">
+           <td>Front Seats</td>
+           <td>Price</td>
+           <td>Number</td>
+           <td>Additional Details</td>
+         </thead>
+         <tbody>
+           <tr>
+             <td><span><input type="checkbox" name="" value="">Yes</td>
+             <td>$40</td>
+             <td>Family</td>
+             <td>Additional per person</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
 
-
-
-
-
-
+     <div class="margin-5-px">
+      <table class="margin-auto width-70-percent table-3 border-1-px-grey text-align-center">
+        <thead class="background-272a31 color-white">
+          <td>Bingo Ticket</td>
+          <td>Price</td>
+          <td>Number</td>
+          <td>Additional Details</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span><input type="checkbox" name="bingo-ticket" value="yes">Yes</td>
+            <td>$15</td>
+            <td><input type="number" name="" value="number"></td>
+            <td>Big prizes for winners!</td>
+          </tr>
+        </tbody>
+      </table>
+     </div>
+    </section>
+    <button id="order-now" class="text-align-center background-orange color-white" type="button" name="button">Order Now</button>
+  </main>
 
 
 
