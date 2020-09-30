@@ -142,11 +142,22 @@ padding-bottom: 30px;
 }
 
 
+/* Tickets page */
 
+table{
+  border: 8px solid transparent;
+	border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
+	              #58a 0, #58a 3em, transparent 0, transparent 4em);
+}
 
+thead {
+  color: white;
+}
 
-
-
+td {
+  width: 25%;
+  margin: 30px;
+}
 
 .list-style-none {
   list-style: none;
@@ -196,6 +207,10 @@ padding-bottom: 30px;
   width: 50%;
 }
 
+.w-70-percent {
+  width: 70%;
+}
+
 .background-272a31 {
   background-color: #272A31;
 }
@@ -211,6 +226,12 @@ padding-bottom: 30px;
 .margin-5-px {
   margin: 5px;
 }
+
+.margin-auto {
+  margin: auto;
+}
+
+
 
 @media screen and (max-width: 768px){
   body {
