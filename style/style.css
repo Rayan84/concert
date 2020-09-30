@@ -2,8 +2,12 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: cocogoose;
+  font-family: 'cocogooseregular';
+}
 
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url(../assets/Cocogoose_trial.otf);
 }
 
 .first-nav {
@@ -21,16 +25,17 @@ body {
   top: 0;
 }
 
-.logo-image {
-  width: 160px;
-}
-
 .second-nav-container {
   display: flex;
+  padding-left: 10%;
+}
+
+.logo-image {
+  width: 180px;
 }
 
 .second-nav {
-  width: 80%;
+  width: 65%;
   list-style: none;
   justify-content: flex-end;
 }
@@ -46,26 +51,29 @@ body {
 }
 
 main {
-
+ margin-top: 0;
+ padding-top: 0;
 }
 
 .introductory {
-  background-image: url(../assets/party-image.jpg);
-  size: cover;
   color: white;
   padding-left: 5%;
   padding-right: 5%;
-  margin: auto;
+  background: url(../assets/party-image.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
 }
 
 .main-title {
   font-size: 60px;
+  padding-top: 40px;
+   margin-top: 5px;
 }
 
 .section-2 {
 padding-top: 30px;
 padding-bottom: 30px;
- background: url(../assets/pattern.png) rgba(40, 41, 48, 0.9);
+ background: url(../assets/pattern.png) rgba(10, 41, 48, 0.9);
 
 }
 
@@ -78,8 +86,9 @@ padding-bottom: 30px;
 }
 
 .section-2-ul-li {
+  padding: 15px;
  margin-left: 2px;
- background-color:  rgba(242, 246, 245, 0.1);
+ background-color:  rgba(242, 246, 245, 0.3);
  padding-top: 15px;
  border: solid transparent 1px;
 }
@@ -91,6 +100,47 @@ padding-bottom: 30px;
 .see-full-program:hover {
   color: #EC5242;
 }
+
+.singers-section {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+.padding-left-right-10-percent {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.singer-image-container {
+  margin-right: 5px;
+}
+
+.singer-image {
+  width: 120px;
+  height: 120px;
+}
+
+.singer-text-container {
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+.singer-text-container > h4 {
+  margin-top: 0;
+}
+
+.footer-top-div {
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+}
+
+.footer-top-div i {
+  font-size: 40px;
+}
+
 
 
 
@@ -122,6 +172,14 @@ padding-bottom: 30px;
   text-decoration: none;
 }
 
+.color-d3d3d3 {
+  color: #D3D3D3;
+}
+
+.color-black {
+  color: black;
+}
+
 .color-white {
   color: white;
 }
@@ -132,6 +190,26 @@ padding-bottom: 30px;
 
 .display-flex {
   display: flex;
+}
+
+.w-50-percent {
+  width: 50%;
+}
+
+.background-272a31 {
+  background-color: #272A31;
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+
+.margin-5-px {
+  margin: 5px;
 }
 
 @media screen and (max-width: 768px){
