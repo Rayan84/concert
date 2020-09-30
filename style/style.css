@@ -2,11 +2,12 @@
 body {
   width: 100%;
   margin: 0;
+  font-family: cocogoose;
 
 }
 
 .first-nav {
-  margin-top: 0;
+  margin: 0;
   background-color: black;
   display: flex;
   justify-content: flex-end;
@@ -27,6 +28,69 @@ body {
 .color-white {
   color: white;
 }
+
+.display-flex {
+  display: flex;
+}
+
+.logo-image {
+  width: 160px;
+}
+
+.second-nav-container {
+  display: flex;
+}
+
+.second-nav {
+  width: 80%;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.second-nav li {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  background-image: url(../assets/party-image.jpg);
+}
+
+.introductory {
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.main-title {
+  font-size: 42px;
+}
+
+.section-2 {
+  background-color: #272A31;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.underline-red {
+  text-decoration: underline red;
+}
+
+.background-d3d3d3 {
+  background-color: #d3d3d3;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
   body {
