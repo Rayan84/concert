@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
   </head>
   <body>
-    <header>
+    <header id="first-header">
       <ul class="first-nav">
         <li><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
         <li><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
@@ -24,7 +24,13 @@
         </ul>
       </div>
     </header>
-    <main>
+
+    <header id="mobile-nav">
+      <nav>
+        <a href="#"><i class="fas fa-bars color-white"></i></a>
+      </nav>
+    </header>
+    <main class="homepage-main">
 
       <section class="introductory">
         <h1 class="main-title">Concert 2020 November 12</h1>
@@ -40,7 +46,7 @@
 
       <section class="section-2">
         <h1 class="text-align-center color-white">Concert <span class="underline-red">Prog</span>ram</h1>
-        <ul class="section-2-ul">
+        <ul class="section-2-ul display-grid">
           <li class="section-2-ul-li background-d3-d3-de text-align-center list-style-none">
           <a class="text-decoration-none" href="#">
             <i class="fas fa-music color-white font-size-40px"></i>
@@ -72,7 +78,7 @@
       </section>
       <section class="singers-section">
         <h1 class="text-align-center">S<span class="underline-red">inge</span>rs</h1>
-              <div class="display-flex">
+              <div class="double-article-container display-flex">
                  <article class="display-flex w-50-percent">
                    <div class="singer-image-container">
                     <img class="singer-image" src="./assets/tyler.jpg" alt="Singer's photo">
@@ -95,18 +101,7 @@
                 </div>
                </article>
             </div>
-            <div class="display-flex">
-               <article class="display-flex w-50-percent">
-                 <div class="singer-image-container">
-                  <img class="singer-image" src="./assets/neha.jpg" alt="Singer's photo">
-                </div>
-                <div class="singer-text-container">
-                  <h4>Christina Aguilera</h4>
-                  <p class="color-orange font-style-italic">Christina María Aguilera is an American singer, songwriter, actress, and television personality.</p>
-                  <p>Her accolades include five Grammy Awards, one Latin Grammy Award, and a star on the Hollywood Walk of Fame.</p>
-               </div>
-              </article>
-
+            <div class="double-article-container display-flex">
               <article class="display-flex w-50-percent">
                 <div class="singer-image-container">
                  <img class="singer-image" src="./assets/sheeran.jpg" alt="Singer's photo">
@@ -117,8 +112,18 @@
                  <p>First recording music in 2004, he began to be seen by people over the internet. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations Project.</p>
               </div>
              </article>
+               <article class="display-flex w-50-percent">
+                 <div class="singer-image-container">
+                  <img class="singer-image" src="./assets/neha.jpg" alt="Singer's photo">
+                </div>
+                <div class="singer-text-container">
+                  <h4>Christina Aguilera</h4>
+                  <p class="color-orange font-style-italic">Christina María Aguilera is an American singer, songwriter, actress, and television personality.</p>
+                  <p>Her accolades include five Grammy Awards, one Latin Grammy Award, and a star on the Hollywood Walk of Fame.</p>
+               </div>
+              </article>
          </div>
-         <div class="display-flex">
+         <div class="double-article-container display-flex">
              <article class="display-flex w-50-percent">
                <div class="singer-image-container">
                 <img class="singer-image" src="./assets/mabel.jpg" alt="Singer's photo">
@@ -141,9 +146,10 @@
             </div>
            </article>
          </div>
+         <button id="read-more-button" onclick="appear();">Read More <span class="color-orange"> →</span></button>
       </section>
    </main>
-   <footer class="">
+   <footer id="homepage-footer">
      <div class="background-272a31">
        <h1 class="text-align-center color-d3d3d3  underline-red">Contributors</h1>
 
@@ -161,10 +167,12 @@
          <img class="logo-image" src="./assets/logo.png" alt="Logo image">
        </div>
        <div>
-         <p>Concert 2020. All rights reserved</p>
-         <p>Please feel free to contact any of dearlships, we will be very happy to hear from you</p>
+         <h3>Concert 2020. All rights reserved</h3>
+         <p>Please feel free to contact us or any of our dearlships, we will be very happy to hear from you..</p>
        </div>
      </div>
    </footer>
+   <script src="index.js">
+   </script>
   </body>
 </html>
