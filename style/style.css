@@ -72,7 +72,7 @@ main {
 .section-2-ul-li {
   padding: 15px;
   margin-left: 2px;
-  background-color:  rgba(242, 246, 245, 0.3);
+  background-color: rgba(242, 246, 245, 0.3);
   padding-top: 15px;
   border: solid transparent 1px;
 }
@@ -135,10 +135,9 @@ main {
   padding-bottom: 20px;
 }
 
-.table-1{
+.table-1 {
   border: 8px solid transparent;
-	border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
-	              #58a 0, #58a 3em, transparent 0, transparent 4em);
+  border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
  table thead td,
@@ -168,7 +167,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   padding-bottom: 21px;
-  border-bottom: solid #272A31 1px;
+  border-bottom: solid #272a31 1px;
 }
 
 .about-buttons-container button {
@@ -183,7 +182,7 @@ main {
 }
 
 .about-footer {
-  margin-top:60px;
+  margin-top: 60px;
 }
 /* General Classes */
 
@@ -212,7 +211,7 @@ main {
 }
 
 .background-orange {
-  background-color: #EC5242;
+  background-color: #ec5242;
 }
 
 .background-d3d3d3 {
@@ -232,7 +231,7 @@ main {
 }
 
 .color-d3d3d3 {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .color-black {
@@ -244,7 +243,7 @@ main {
 }
 
 .color-orange {
- color: #EC5242;
+  color: #EC5242;
 }
 
 .display-flex {
@@ -280,7 +279,7 @@ main {
 }
 
 .border-1-px-grey {
-  border: solid #D3D3D3 1px;
+  border: solid #d3d3d3 1px;
 }
 
 .border-radius-10 {
@@ -307,8 +306,7 @@ main {
   margin: 0;
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
   #first-header,
   #homepage-footer {
     display: none;
@@ -365,12 +363,12 @@ main {
     width: 50%;
   }
 
- .singers-section {
+  .singers-section {
    padding-left: 12px;
    padding-right: 12px;
- }
+  }
 
- .double-article-container article{
+  .double-article-container article{
     width: 90%;
     margin-bottom: 5px;
   }
@@ -395,35 +393,34 @@ main {
     margin-top: 2px;
   }
 
-   #read-more-button {
-     width: 88%;
-     margin: 20px auto;
-     border: solid transparent 1px;
-     padding: 14px;
-     cursor: pointer;
-   }
+  #read-more-button {
+    width: 88%;
+    margin: 20px auto;
+    border: solid transparent 1px;
+    padding: 14px;
+    cursor: pointer;
+  }
 
    /* About */
 
 
-   .about-main-title {
-     padding-top: 60px;
-   }
+  .about-main-title {
+    padding-top: 60px;
+  }
 
-   .about-buttons-container button {
-     width: 100%;
-   }
+  .about-buttons-container button {
+    width: 100%;
+  }
 
    /* Tickets page */
 
-   table thead td,
-   table tbody tr td {
+  table thead td,
+  table tbody tr td {
     margin: 1px;
   }
 
-   #order-now {
-     width: 78%;
-     border-color: transparent;
-   }
-
+  #order-now {
+    width: 78%;
+    border-color: transparent;
+  }
 }
