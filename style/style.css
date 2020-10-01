@@ -12,19 +12,13 @@ body {
 
 .first-nav {
   background-color: black;
-  justify-content: flex-end;
   padding: 5px;
 }
 
 .first-nav li {
   margin-right: 20px;
-  list-style: none;
   font-size: 20px;
   top: 0;
-}
-
-.second-nav-container {
-  padding-left: 10%;
 }
 
 .logo-image {
@@ -33,14 +27,12 @@ body {
 
 .second-nav {
   width: 65%;
-  list-style: none;
   margin-bottom: 0;
-  justify-content: flex-end;
 }
 
 .second-nav li {
   margin: 20px;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
 }
 
@@ -49,12 +41,10 @@ body {
 }
 
 main {
- margin-top: 0;
  padding-top: 0;
 }
 
 .introductory {
-  color: white;
   padding-left: 5%;
   padding-right: 5%;
   background: url(../assets/party-image.jpg);
@@ -69,21 +59,19 @@ main {
 }
 
 .section-2 {
-padding-top: 30px;
-padding-bottom: 30px;
+ padding-top: 30px;
+ padding-bottom: 30px;
  background: url(../assets/pattern.png) rgba(10, 41, 48, 0.9);
 
 }
 
 .section-2-ul {
-  margin: auto;
-  justify-content: space-around;
   grid-template-columns: repeat(5, 1fr);
   width: 80%;
 }
 
 .section-2-ul-li {
-  padding: 15px;
+ padding: 15px;
  margin-left: 2px;
  background-color:  rgba(242, 246, 245, 0.3);
  padding-top: 15px;
@@ -99,14 +87,12 @@ padding-bottom: 30px;
 }
 
 .singers-section {
-  padding-left: 10%;
-  padding-right: 10%;
   padding-top: 20px;
 }
 
 .font-family-lato,
 .singers-section {
-    font-family: 'lato';
+  font-family: 'lato';
 }
 
 .padding-left-right-10-percent {
@@ -128,15 +114,8 @@ padding-bottom: 30px;
   padding-right: 25px;
 }
 
-.singer-text-container > h4 {
-  margin-top: 0;
-}
-
 .footer-top-div {
-  justify-content: space-around;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 40px;
+  padding-bottom: 41px;
 }
 
 .footer-top-div i {
@@ -144,7 +123,7 @@ padding-bottom: 30px;
 }
 
 .footer-bottom-div {
-  padding-top: 20px;
+  padding-top: 22px;
   padding-bottom: 10px;
 }
 
@@ -164,10 +143,6 @@ padding-bottom: 30px;
 	              #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
-.table-1 thead {
-  color: white;
-}
-
  table thead td,
  table tbody tr td {
   width: 25%;
@@ -178,11 +153,10 @@ padding-bottom: 30px;
   width: 20%;
   padding: 10px;
   border-radius: 3px;
-  margin: auto;
   display: block;
   line-height: 20px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 19px;
+  font-weight: bolder;
 }
 
 #order-now:hover {
@@ -192,17 +166,16 @@ padding-bottom: 30px;
 /* About page */
 
 .about-buttons-container {
-  margin: auto;
   width: 60%;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 21px;
   border-bottom: solid #272A31 1px;
 }
 
 .about-buttons-container button {
   font-size: 18px;
-  border: solid transparent 1px;
+  border: solid transparent 2px;
   margin-right: 2px;
   padding: 12px;
 }
@@ -215,6 +188,14 @@ padding-bottom: 30px;
   margin-top:60px;
 }
 /* General Classes */
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
 
 .list-style-none {
   list-style: none;
@@ -320,9 +301,13 @@ padding-bottom: 30px;
   padding-left: 0;
 }
 
+.padding-left-10-percent {
+  padding-left: 10%;
+}
 .margin-0 {
   margin: 0;
 }
+
 
 @media screen and (max-width: 768px){
 
@@ -335,7 +320,7 @@ padding-bottom: 30px;
   }
 
   .mobile-nav-ul {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 6px;
   }
 
@@ -393,6 +378,7 @@ padding-bottom: 30px;
     width: 90%;
     margin-bottom: 5px;
   }
+
   .singer-image {
     width: 160px;
     height: 160px;
@@ -427,6 +413,7 @@ padding-bottom: 30px;
 
    /* About */
 
+
    .about-main-title {
      padding-top: 60px;
    }
@@ -434,6 +421,7 @@ padding-bottom: 30px;
    .about-buttons-container {
      display: block;
    }
+
    .about-buttons-container button {
      display: block;
      width: 100%;
@@ -442,15 +430,14 @@ padding-bottom: 30px;
 
    /* Tickets page */
 
+
    table thead td,
    table tbody tr td {
     margin: 1px;
   }
 
-
-
    #order-now {
-     width: 80%;
+     width: 78%;
      border-color: transparent;
    }
 
