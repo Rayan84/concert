@@ -1,7 +1,5 @@
 
 body {
-  width: 100%;
-  margin: 0;
   font-family: 'cocogooseregular';
 }
 
@@ -12,16 +10,8 @@ body {
   src: url(../assets/Lato-Italic.ttf);
 }
 
-#mobile-nav,
-.mobile-nav-ul,
-#read-more-button {
-  display: none;
-}
-
 .first-nav {
-  margin: 0;
   background-color: black;
-  display: flex;
   justify-content: flex-end;
   padding: 5px;
 }
@@ -34,7 +24,6 @@ body {
 }
 
 .second-nav-container {
-  display: flex;
   padding-left: 10%;
 }
 
@@ -331,6 +320,10 @@ padding-bottom: 30px;
   padding-left: 0;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px){
 
   #first-header {
@@ -349,7 +342,7 @@ padding-bottom: 30px;
   #mobile-nav nav ul li a:hover {
    color: #EC5242;
   }
-  
+
   #mobile-nav nav ul li a i{
     font-size: 30px;
     margin-left: 1px;
