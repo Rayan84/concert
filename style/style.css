@@ -327,12 +327,6 @@ table tbody tr td {
     margin-top: 6px;
   }
 
-  #mobile-nav nav ul li a i {
-    font-size: 30px;
-    margin-left: 1px;
-    margin-top: 1px;
-  }
-
   .main-title {
     margin-top: 0;
   }
@@ -351,17 +345,23 @@ table tbody tr td {
     margin-top: 20px;
   }
 
+  .section-2-ul-li p,
+  .section-2-ul-li a i {
+    width: 50%;
+  }
+
+  #mobile-nav nav ul li a i {
+    font-size: 30px;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+
   #mobile-nav nav ul li a:hover {
     color: #ec5242;
   }
 
   .section-2-ul-li h1 {
     width: 25%;
-  }
-
-  .section-2-ul-li p,
-  .section-2-ul-li a i {
-    width: 50%;
   }
 
   .singers-section {
