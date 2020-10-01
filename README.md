@@ -15,7 +15,7 @@ Concert website represents a conceptual event , it is solo project accomplished 
 
 # Authors
 
-## Rayan Rassam
+# Rayan Rassam
 * Github:[@Rayan84](https://github.com/Rayan84)
 * Twitter:[@Rayan65096267](https://twitter.com/Rayan65096267)
 * LinkedIn:[@rayan rassam](https://www.linkedin.com/in/rayan-rassam-18a0a426/)
