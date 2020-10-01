@@ -44,6 +44,7 @@ body {
 .second-nav {
   width: 65%;
   list-style: none;
+  margin-bottom: 0;
   justify-content: flex-end;
 }
 
@@ -153,14 +154,16 @@ padding-bottom: 30px;
 }
 
 .footer-bottom-div {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
+}
 
+.footer-bottom-div img {
+  padding-top: 8px;
 }
 
 
 /* Tickets page */
-
 .tickets-section-1 {
   padding-bottom: 20px;
 }
@@ -319,10 +322,11 @@ padding-bottom: 30px;
   display: grid;
 }
 
-@media screen and (max-width: 768px){
-  body {
+.display-none {
+  display: none;
+}
 
-  }
+@media screen and (max-width: 768px){
 
   #first-header {
     display: none;
@@ -333,10 +337,10 @@ padding-bottom: 30px;
     position: absolute;
   }
 
-  #mobile-nav nav a i{
+  #mobile-nav nav ul li a i{
     font-size: 30px;
-    margin-left: 6px;
-    margin-top: 6px;
+    margin-left: 1px;
+    margin-top: 1px;
   }
 
   .main-title {
@@ -417,6 +421,11 @@ padding-bottom: 30px;
    }
 
    /* About */
+
+   .about-main-title {
+     padding-top: 60px;
+   }
+
    .about-buttons-container {
      display: block;
    }
@@ -430,9 +439,10 @@ padding-bottom: 30px;
 
    table thead td,
    table tbody tr td {
-    width: 20%;
     margin: 1px;
   }
+
+
 
    #order-now {
      width: 80%;

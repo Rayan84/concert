@@ -8,14 +8,15 @@
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
   </head>
   <body>
-    <header>
+    <header id="first-header">
       <ul class="first-nav">
         <li><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
         <li><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
         <li><a href="#"><a href="" class="text-decoration-none color-white">Log out</a></li>
       </ul>
+
       <div class="second-nav-container">
-        <img class="logo-image" src="./assets/logo.png" alt="logo image">
+        <a href="index.html"><img class="logo-image" src="./assets/logo.png" alt="logo image"></a>
         <ul class="second-nav display-flex">
           <li><a href="index.html" class="text-decoration-none color-black">Home</a></li>
           <li><a href="tickets.html" class="text-decoration-none color-black">Tickets</a></li>
@@ -24,9 +25,15 @@
       </div>
     </header>
 
+    <header id="mobile-nav">
+      <nav>+
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </nav>
+    </header>
+
 
     <main class="background-light">
-      <h1 class="text-align-center margin-top-0">Com<span class="underline-red">ing Up Ev</span>ents!</h1>
+      <h1 class="text-align-center margin-top-0 about-main-title">Com<span class="underline-red">ing Up Ev</span>ents!</h1>
       <section>
         <div class="display-grid about-buttons-container">
           <button class="color-white background-orange" type="button" name="button">2021 February 14</button>
