@@ -3,6 +3,7 @@ Concert website represents a conceptual event , it is solo project accomplished 
 
 # Screenshot
 <img src='./assets/screenshot.png'>
+<img src='./assets/mobile-screenshot.png'>
 
 # Live Demo
 [Live Demo Link](https://rayan84.github.io/concert/)
