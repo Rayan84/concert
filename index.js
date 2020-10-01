@@ -7,11 +7,11 @@ function appear() {
 
 function mobileNav() {
   var mobilNavUl = document.querySelector('.mobile-nav-ul');
-  if (mobilNavUl.style.display == 'none') {
+  if (mobilNavUl.style.display === 'block') {
     console.log('1');
-    mobilNavUl.style.display = 'block';
+    mobilNavUl.style.display = 'none';
   }else {
     console.log('2');
-    mobilNavUl.style.display = 'none';
+    mobilNavUl.style.display = 'block';
   }
 }
