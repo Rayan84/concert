@@ -13,6 +13,7 @@ body {
 }
 
 #mobile-nav,
+.mobile-nav-ul,
 #read-more-button {
   display: none;
 }
@@ -326,6 +327,10 @@ padding-bottom: 30px;
   display: none;
 }
 
+.padding-left-0 {
+  padding-left: 0;
+}
+
 @media screen and (max-width: 768px){
 
   #first-header {
@@ -334,7 +339,15 @@ padding-bottom: 30px;
 
   #mobile-nav {
     display: block;
-    position: absolute;
+  }
+
+  .mobile-nav-ul {
+    font-size: 20px;
+    margin-top: 6px;
+  }
+
+  #mobile-nav nav ul li a:hover {
+   color: #EC5242;
   }
 
   #mobile-nav nav ul li a i{
@@ -349,7 +362,6 @@ padding-bottom: 30px;
 
   .section-2-ul {
     display: block;
-    padding-left: 0;
   }
 
   .section-2-ul-li {

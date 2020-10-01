@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Tickets</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-  </head>
-  <body>
-    <header>
-      <ul class="first-nav">
-        <li><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
-        <li><a href="#"><a href="" class="text-decoration-none color-white">Log out</a></li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tickets</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+<body>
+  <header id="first-header">
+    <ul class="first-nav">
+      <li><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
+      <li><a href="#"><a href="" class="text-decoration-none color-white">Log out</a></li>
+    </ul>
+
+    <div class="second-nav-container">
+      <a href="index.html"><img class="logo-image" src="./assets/logo.png" alt="logo image"></a>
+      <ul class="second-nav display-flex">
+        <li><a href="index.html" class="text-decoration-none color-black">Home</a></li>
+        <li><a href="tickets.html" class="text-decoration-none color-orange">Tickets</a></li>
+        <li><a href="about.html" class="text-decoration-none color-black">About</a></li>
       </ul>
+    </div>
+  </header>
 
-      <div class="second-nav-container">
-        <a href="index.html"><img class="logo-image" src="./assets/logo.png" alt="logo image"></a>
-        <ul class="second-nav display-flex">
-          <li><a href="index.html" class="text-decoration-none color-black">Home</a></li>
-          <li><a href="tickets.html" class="text-decoration-none color-orange">Tickets</a></li>
-          <li><a href="about.html" class="text-decoration-none color-black">About</a></li>
+  <header id="mobile-nav">
+    <nav>
+      <ul>
+        <li class="list-style-none"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <ul class="padding-left-0 mobile-nav-ul">
+          <li class="list-style-none"><a href="index.html" class="text-decoration-none">Home</a></li>
+          <li class="list-style-none"><a href="tickets.html" class="text-decoration-none">Tickets</a></li>
+          <li class="list-style-none"><a href="about.html" class="text-decoration-none">About</a></li>
         </ul>
-      </div>
-    </header>
-
-
-
+     </ul>
+    </nav>
+  </header>
 
     <main>
       <section class="background-light tickets-section-1">

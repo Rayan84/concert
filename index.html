@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Concert</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
@@ -28,11 +29,11 @@
     <header id="mobile-nav">
       <nav>
         <ul>
-          <li><a href="#"><i class="fas fa-bars color-white"></i></a></li>
-          <ul class="">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tickets</a></li>
-            <li><a href="#">About</a></li>
+          <li class="list-style-none" onclick="mobileNav();"><a href="#"><i class="fas fa-bars"></i></a></li>
+          <ul class="padding-left-0 mobile-nav-ul">
+            <li class="list-style-none"><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li class="list-style-none"><a href="tickets.html" class="text-decoration-none">Tickets</a></li>
+            <li class="list-style-none"><a href="about.html" class="text-decoration-none">About</a></li>
           </ul>
        </ul>
       </nav>
@@ -53,7 +54,7 @@
 
       <section class="section-2">
         <h1 class="text-align-center color-white">Concert <span class="underline-red">Prog</span>ram</h1>
-        <ul class="section-2-ul display-grid">
+        <ul class="section-2-ul display-grid padding-left-0">
           <li class="section-2-ul-li background-d3-d3-de text-align-center list-style-none">
           <a class="text-decoration-none" href="#">
             <i class="fas fa-music color-white font-size-40px"></i>

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>About</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
@@ -26,11 +27,17 @@
     </header>
 
     <header id="mobile-nav">
-      <nav>+
-        <a href="#"><i class="fas fa-bars"></i></a>
+      <nav>
+        <ul>
+          <li class="list-style-none"><a href="#"><i class="fas fa-bars"></i></a></li>
+          <ul class="padding-left-0 mobile-nav-ul">
+            <li class="list-style-none"><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li class="list-style-none"><a href="tickets.html" class="text-decoration-none">Tickets</a></li>
+            <li class="list-style-none"><a href="about.html" class="text-decoration-none">About</a></li>
+          </ul>
+       </ul>
       </nav>
     </header>
-
 
     <main class="background-light">
       <h1 class="text-align-center margin-top-0 about-main-title">Com<span class="underline-red">ing Up Ev</span>ents!</h1>
