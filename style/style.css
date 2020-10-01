@@ -133,6 +133,7 @@ main {
 
 
 /* Tickets page */
+
 .tickets-section-1 {
   padding-bottom: 20px;
 }
@@ -293,7 +294,7 @@ main {
   display: grid;
 }
 
-.display-none {
+.display-none, {
   display: none;
 }
 
@@ -306,16 +307,21 @@ main {
 }
 .margin-0 {
   margin: 0;
-}
-
+}*/
 
 @media screen and (max-width: 768px){
 
-  #first-header {
+  #first-header,
+  #homepage-footer {
     display: none;
   }
 
-  #mobile-nav {
+  #mobile-nav,
+  .section-2-ul,
+  .double-article-container,
+  #read-more-button,
+  .about-buttons-container,
+  .about-buttons-container button {
     display: block;
   }
 
@@ -338,10 +344,6 @@ main {
     margin-top: 0;
   }
 
-  .section-2-ul {
-    display: block;
-  }
-
   .section-2-ul-li {
     margin-bottom: 15px;
     margin-left: auto;
@@ -354,14 +356,14 @@ main {
 
   .section-2-ul-li a i {
     margin-top: 20px;
-    width: 25%;
   }
 
   .section-2-ul-li h1 {
     width: 25%
   }
 
-  .section-2-ul-li p {
+  .section-2-ul-li p,
+  .section-2-ul-li a i {
     width: 50%;
   }
 
@@ -370,11 +372,7 @@ main {
    padding-right: 12px;
  }
 
- .double-article-container {
-   display: block;
- }
-
-  .double-article-container article{
+ .double-article-container article{
     width: 90%;
     margin-bottom: 5px;
   }
@@ -389,26 +387,22 @@ main {
     padding-left: 0;
   }
 
-  .singer-text-container h4 {
+  .singer-text-container h4,
+  .singer-text-container p,
+  .about-buttons-container button {
     margin-bottom: 2px;
   }
 
   .singer-text-container p {
     margin-top: 2px;
-    margin-bottom: 2px;
   }
 
    #read-more-button {
-     width: 90%;
+     width: 88%;
      margin: 20px auto;
-     display: block;
      border: solid transparent 1px;
      padding: 14px;
      cursor: pointer;
-   }
-
-    #homepage-footer {
-     display: none;
    }
 
    /* About */
@@ -418,14 +412,8 @@ main {
      padding-top: 60px;
    }
 
-   .about-buttons-container {
-     display: block;
-   }
-
    .about-buttons-container button {
-     display: block;
      width: 100%;
-     margin-bottom: 2px;
    }
 
    /* Tickets page */
