@@ -140,8 +140,8 @@ main {
   border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
- table thead td,
- table tbody tr td {
+table thead td,
+table tbody tr td {
   width: 25%;
   margin: 30px;
 }
@@ -184,6 +184,7 @@ main {
 .about-footer {
   margin-top: 60px;
 }
+
 /* General Classes */
 
 .justify-content-flex-end {
@@ -223,7 +224,7 @@ main {
 }
 
 .background-272a31 {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .text-decoration-none {
@@ -243,7 +244,7 @@ main {
 }
 
 .color-orange {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .display-flex {
@@ -326,11 +327,7 @@ main {
     margin-top: 6px;
   }
 
-  #mobile-nav nav ul li a:hover {
-   color: #EC5242;
-  }
-
-  #mobile-nav nav ul li a i{
+  #mobile-nav nav ul li a i {
     font-size: 30px;
     margin-left: 1px;
     margin-top: 1px;
@@ -354,8 +351,12 @@ main {
     margin-top: 20px;
   }
 
+  #mobile-nav nav ul li a:hover {
+    color: #ec5242;
+  }
+
   .section-2-ul-li h1 {
-    width: 25%
+    width: 25%;
   }
 
   .section-2-ul-li p,
@@ -364,11 +365,11 @@ main {
   }
 
   .singers-section {
-   padding-left: 12px;
-   padding-right: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
-  .double-article-container article{
+  .double-article-container article {
     width: 90%;
     margin-bottom: 5px;
   }
@@ -401,8 +402,7 @@ main {
     cursor: pointer;
   }
 
-   /* About */
-
+  /* About */
 
   .about-main-title {
     padding-top: 60px;
@@ -412,7 +412,7 @@ main {
     width: 100%;
   }
 
-   /* Tickets page */
+  /* Tickets page */
 
   table thead td,
   table tbody tr td {
