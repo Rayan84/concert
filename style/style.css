@@ -91,7 +91,7 @@ main {
 
 .font-family-lato,
 .singers-section {
-  font-family: 'lato';
+  font-family: 'lato', 'cocogooseregular', sans-serif;
 }
 
 .padding-left-right-10-percent {
