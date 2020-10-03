@@ -15,8 +15,6 @@ function appear() {
     // arrowBackward.innerHTML = ('<ffff');
      additionalSingers[i].style.display = 'flex';
      readMoreButton.innerHTML = '<< Read Less';
-     var value = readMoreButton.innerHTML;
-     alert(value);
    }
   }
  }
