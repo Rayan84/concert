@@ -1,5 +1,5 @@
-# concert
-Concert website represents a conceptual event , it is solo project accomplished to satisfy  Microverse capstone  requirement 
+# Concert Website Project
+Concert website is a site for a conceptual event, it is a solo project accomplished to satisfy Microverse capstone requirement. I would like through this work to demonstrate mastery in HTML, CSS in addition to skills in other important aspects like good UI design..
 
 # Screenshot
 <img src='./assets/screenshot.png'>

@@ -123,7 +123,6 @@ main {
 
 .footer-bottom-div {
   padding-top: 22px;
-  padding-bottom: 10px;
 }
 
 .footer-bottom-div img {
@@ -131,6 +130,11 @@ main {
 }
 
 /* Tickets page */
+
+.tickets-page-title {
+  font-size: 2rem;
+}
+
 .tickets-section-1 {
   padding-bottom: 20px;
 }
@@ -153,7 +157,6 @@ table tbody tr td {
   display: block;
   line-height: 20px;
   font-size: 19px;
-  font-weight: bolder;
 }
 
 #order-now:hover {
@@ -291,7 +294,8 @@ table tbody tr td {
   display: grid;
 }
 
-.display-none {
+.display-none,
+#read-more-button {
   display: none;
 }
 
@@ -307,9 +311,13 @@ table tbody tr td {
   margin: 0;
 }
 
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 768px) {
   #first-header,
-  #homepage-footer {
+  .additional-singers-article {
     display: none;
   }
 
@@ -339,15 +347,25 @@ table tbody tr td {
 
   .section-2-ul-li a {
     display: flex;
+    flex-direction: row;
   }
 
   .section-2-ul-li a i {
     margin-top: 20px;
+    width: 20%;
+  }
+
+  .section-2-ul-li p {
+    width: 40%;
+  }
+
+  .section-2-ul-li a h2 {
+    width: 30%;
   }
 
   .section-2-ul-li p,
-  .section-2-ul-li a i {
-    width: 50%;
+  .section-2-ul-li a h2 {
+    text-align: left;
   }
 
   #mobile-nav nav ul li a i {
@@ -358,6 +376,10 @@ table tbody tr td {
 
   #mobile-nav nav ul li a:hover {
     color: #ec5242;
+  }
+  
+  .section-2-ul {
+    width: 96%;
   }
 
   .section-2-ul-li h1 {
