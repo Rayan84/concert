@@ -144,8 +144,8 @@ main {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 18%;
-  height: 45%;
+  width: 80px;
+  height: 80px;
   pointer-events: none;
 }
 
@@ -214,27 +214,23 @@ table tbody tr td {
 /* About page */
 
 .about-nav-header {
-  box-shadow: 0 1px 15px black;
-  margin-bottom: 15px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
 }
 
-.about-buttons-container {
-  width: 60%;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  padding-bottom: 21px;
-  border-bottom: solid #272a31 1px;
+.about-section-1 {
+  padding-bottom: 14px;
 }
 
-.about-buttons-container button {
-  font-size: 18px;
-  border: solid transparent 2px;
-  margin-right: 2px;
-  padding: 12px;
+.about-section-2 {
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
-.about-buttons-container button:hover {
-  background-color: coral;
+.about-image-container {
+  width: 50%;
+  padding: 1rem;
+  border: solid 2px rgba(0, 0, 0, 0.1);
 }
 
 .about-footer {
@@ -372,6 +368,10 @@ table tbody tr td {
   margin-top: 18px;
 }
 
+.font-weight-normal {
+  font-weight: normal;
+}
+
 .font-weight-bolder {
   font-weight: bolder;
 }
@@ -398,8 +398,6 @@ table tbody tr td {
   #mobile-nav,
   .section-2-ul,
   #read-more-button,
-  .about-buttons-container,
-  .about-buttons-container button,
   .see-full-program-button {
     display: block;
   }
@@ -494,8 +492,7 @@ table tbody tr td {
   }
 
   .singer-text-container h4,
-  .singer-text-container p,
-  .about-buttons-container button {
+  .singer-text-container p {
     margin-bottom: 2px;
   }
 
@@ -510,8 +507,6 @@ table tbody tr td {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 80px;
-    height: 80px;
     pointer-events: none;
   }
 
@@ -526,10 +521,6 @@ table tbody tr td {
 
   .about-main-title {
     padding-top: 60px;
-  }
-
-  .about-buttons-container button {
-    width: 100%;
   }
 
   /* Tickets page */
