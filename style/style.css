@@ -198,7 +198,7 @@ table tbody tr td {
   margin: 30px;
 }
 
-#order-now {
+.order-now {
   width: 20%;
   padding: 10px;
   border-radius: 3px;
@@ -207,11 +207,16 @@ table tbody tr td {
   font-size: 19px;
 }
 
-#order-now:hover {
+.order-now:hover {
   color: black;
 }
 
 /* About page */
+
+.about-nav-header {
+  box-shadow: 0 1px 15px black;
+  margin-bottom: 15px;
+}
 
 .about-buttons-container {
   width: 60%;
@@ -322,6 +327,10 @@ table tbody tr td {
   margin: 5px;
 }
 
+.about-paragraph-container {
+  padding: 25px 45px;
+}
+
 .margin-auto {
   margin: auto;
 }
@@ -371,9 +380,18 @@ table tbody tr td {
   flex-direction: row;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.background-color-white {
+  background-color: white;
+}
+
 @media screen and (max-width: 768px) {
   #first-header,
-  .additional-singers-article {
+  .additional-singers-article,
+  .see-full-program {
     display: none;
   }
 
@@ -381,7 +399,8 @@ table tbody tr td {
   .section-2-ul,
   #read-more-button,
   .about-buttons-container,
-  .about-buttons-container button {
+  .about-buttons-container button,
+  .see-full-program-button {
     display: block;
   }
 
@@ -491,8 +510,8 @@ table tbody tr td {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 15%;
-    height: 45%;
+    width: 80px;
+    height: 80px;
     pointer-events: none;
   }
 
@@ -501,7 +520,6 @@ table tbody tr td {
     margin: 20px auto;
     border: solid transparent 1px;
     padding: 14px;
-    cursor: pointer;
   }
 
   /* About */
@@ -521,7 +539,7 @@ table tbody tr td {
     margin: 1px;
   }
 
-  #order-now {
+  .order-now {
     width: 78%;
     border-color: transparent;
   }
