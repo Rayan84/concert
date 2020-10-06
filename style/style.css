@@ -18,6 +18,11 @@ body {
 .first-nav li {
   margin-right: 20px;
   font-size: 20px;
+}
+
+.squares-background-container::before,
+.squares-background-container::after,
+.first-nav li {
   top: 0;
 }
 
@@ -62,6 +67,7 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
   background: url(../assets/pattern.png) rgba(10, 41, 48, 0.9);
+  overflow: hidden;
 }
 
 .section-2-ul {
@@ -141,7 +147,6 @@ main {
 .squares-background-container::after {
   content: "";
   position: absolute;
-  top: 0;
   left: 0;
   z-index: 1;
   width: 80px;
@@ -201,6 +206,15 @@ main {
   border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
+table thead {
+  line-height: 25px;
+}
+
+td {
+  line-height: 40px;
+  border: double lightgray 1px;
+}
+
 table thead td,
 table tbody tr td {
   width: 25%;
@@ -232,14 +246,47 @@ table tbody tr td {
 }
 
 .about-section-2 {
-  border: solid 1px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  padding-bottom: 22px;
+}
+
+.about-main-title {
+  padding-bottom: 2rem;
+}
+
+.about-section-border {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.about-section-3 {
+  padding-bottom: 40px;
+  border-bottom: solid transparent 2px;
 }
 
 .about-image-container {
-  width: 50%;
   padding: 1rem;
   border: solid 2px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.party-2016-container {
+  background: url(../assets/2016.jpg);
+  background-size: cover;
+  margin-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.party-2012-container {
+  background: url(../assets/2012.jpg);
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.party-2012-container,
+.party-2016-container {
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+  width: 30%;
 }
 
 .about-footer {
@@ -256,12 +303,20 @@ table tbody tr td {
   justify-content: space-around;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .list-style-none {
   list-style: none;
 }
 
 .text-align-center {
   text-align: center;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 .underline-red {
@@ -310,6 +365,10 @@ table tbody tr td {
 
 .display-flex {
   display: flex;
+}
+
+.display-inherit {
+  display: inherit;
 }
 
 .w-50-percent {
@@ -399,6 +458,7 @@ table tbody tr td {
 
 @media screen and (max-width: 768px) {
   #first-header,
+  .second-nav-container,
   .additional-singers-article,
   .see-full-program {
     display: none;
@@ -418,6 +478,7 @@ table tbody tr td {
 
   .main-title {
     margin-top: 0;
+    font-size: 40px;
   }
 
   .section-2-ul-li {
@@ -480,7 +541,8 @@ table tbody tr td {
     padding-right: 12px;
   }
 
-  .double-article-container {
+  .double-article-container,
+  .about-parties-container {
     flex-direction: column;
   }
 
@@ -494,10 +556,13 @@ table tbody tr td {
     height: 160px;
   }
 
+  .about-paragraph-container {
+    padding-right: 1px;
+  }
+
   .singer-text-container {
-    padding-top: 10px;
     padding-right: 0;
-    padding-left: 0;
+    padding-top: 10px;
   }
 
   .singer-text-container h4,
@@ -526,10 +591,41 @@ table tbody tr td {
     padding: 14px;
   }
 
+  .footer-image-container {
+    width: 30%;
+  }
+
+  .footer-image-container a img {
+    width: 100%;
+    min-width: 80px;
+  }
+
   /* About */
+
+  .about-paragraph-container,
+  .singer-text-container {
+    padding-left: 0;
+  }
+
+  .about-paragraph-container p {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+  }
 
   .about-main-title {
     padding-top: 60px;
+  }
+
+  .about-image-container {
+    width: 95%;
+  }
+
+  .party-2016-container,
+  .party-2012-container {
+    margin-top: 5px;
+    margin-right: 0;
+    width: 90%;
   }
 
   /* Tickets page */

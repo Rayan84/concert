@@ -10,7 +10,7 @@ This roject is based on an online website for a conference, more details below u
 [Live Demo Link](https://rayan84.github.io/concert/)
 
 # Video Presentation
-[Presentation](https://youtu.be/-jM_NNjVRp4)
+[Presentation](https://youtu.be/ptJs0V1-2uk)
 
 # Built With
 * CSS
