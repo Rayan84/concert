@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Concert</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  </head>
+  <body class="margin-0">
+    <header id="first-header">
+      <ul class="first-nav margin-0 display-flex justify-content-flex-end">
+        <li class="list-style-none"><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
+        <li class="list-style-none"><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
+        <li class="list-style-none"><a href="#" class="text-decoration-none color-white">Log out</a></li>
+      </ul>
+
+      <div class="second-nav-container display-flex flex-direction-row padding-left-10-percent">
+        <a href="index.html"><img class="logo-image" src="./assets/logo.png" alt="logo image"></a>
+        <ul class="second-nav list-style-none display-flex justify-content-flex-end">
+          <li><a href="index.html" class="text-decoration-none color-orange">Home</a></li>
+          <li><a href="tickets.html" class="text-decoration-none color-black">Tickets</a></li>
+          <li><a href="about.html" class="text-decoration-none color-black">About</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <header id="mobile-nav" class="display-none">
+      <nav>
+        <ul>
+          <li class="list-style-none" onclick="mobileNav();"><a href="#"><i class="fas fa-bars"></i></a></li>
+           <li class="list-style-none"><ul class="padding-left-0 mobile-nav-ul display-none font-weight-bolder">
+            <li class="list-style-none"><a href="index.html" class="text-decoration-none color-orange font-weight-bolder">Home</a></li>
+            <li class="list-style-none"><a href="tickets.html" class="text-decoration-none font-weight-bolder">Tickets</a></li>
+            <li class="list-style-none"><a href="about.html" class="text-decoration-none font-weight-bolder">About</a></li>
+           </ul>
+           </li>
+       </ul>
+      </nav>
+    </header>
+    <main class="homepage-main margin-top-0">
+
+      <section class="introductory color-white">
+        <h2 class="main-title">Concert 2020 November 12</h2>
+        <p>Major party you will never forget,</p>
+        <p>Only a limited number of tickets left, hurry up!</p>
+        <h4>From 18:00 to 02:00</h4>
+        <br>
+        <h3>You will enjoy!</h3>
+        <p>Open buffet, you will get to choose from a very diverse catering buffet,sea-food, fries, Hamburger, and many other options</p>
+        <br>
+      </section>
+      <section class="section-2">
+        <h2 class="text-align-center color-white">Concert <span class="underline-red">Prog</span>ram</h2>
+        <ul class="section-2-ul justify-content-space-around display-grid padding-left-0 margin-auto">
+          <li class="section-2-ul-li background-d3-d3-de text-align-center list-style-none">
+          <a class="text-decoration-none" href="#">
+            <i class="fas fa-music color-white font-size-40px"></i>
+            <h2 class="color-white color-orange">Music</h2>
+            <p class="color-white">The music is a collection of hip-hop and rock&roll songs, in addition to ...</p>
+            </a></li>
+          <li class="section-2-ul-li text-decoration-none background-d3-d3-de text-align-center list-style-none"><a>
+            <i class="fas fa-pump-medical color-white font-size-40px"></i>
+            <h2 class="color-white color-orange">Measures</h2>
+            <p class="color-white">Use sterilizer directly after entrance, 1.5 meter distance should be kept the entire time</p>
+          </a></li>
+          <li class="section-2-ul-li text-decoration-none background-d3-d3-de text-align-center list-style-none"><a>
+            <i class="fas fa-utensils color-white font-size-40px"></i>
+            <h2 class="color-white color-orange">Food</h2>
+            <p class="color-white">Gurden Ramsey and others, some of the world's best chefs are cooking at the party eve</p>
+          </a></li>
+          <li class="section-2-ul-li text-decoration-none background-d3-d3-de text-align-center list-style-none"><a>
+            <i class="fas fa-wine-glass-alt color-white font-size-40px"></i>
+            <h2 class="color-white color-orange">Drinks</h2>
+            <p class="color-white">Beer, wine, natural fruits juice, a big list of many kinds of exotic drinks..</p>
+          </a></li>
+          <li class="section-2-ul-li text-decoration-none background-d3-d3-de text-align-center list-style-none"><a>
+            <i class="fas fa-phone-alt color-white font-size-40px"></i>
+            <h2 class="color-white color-orange">Call us</h2>
+            <p class="color-white">Call us now to reseve your place, the tickets are limited and will be sold out very soon</p>
+          </a></li>
+        </ul>
+        <p class="color-white text-align-center underline-grey see-full-program">SEE FULL PROGRAM</p>
+            <button class="cursor-pointer order-now see-full-program-button text-align-center background-orange color-white margin-auto font-weight-bolder display-none" type="button" name="button">SEE FULL PROGRAM</button>
+      </section>
+      <section class="singers-section padding-top-20px padding-left-right-10-percent">
+        <h2 class="text-align-center padding-left-right-10-percent">S<span class="underline-red">inge</span>rs</h2>
+              <div class="double-article-container display-flex">
+                 <article class="display-flex w-50-percent">
+                   <div class="squares-background-container">
+                   </div>
+                   <div class="display-flex flex-direction-row z-index-10">
+                     <div class="singer-image-container">
+                       <img class="singer-image" src="./assets/tyler.jpg" alt="Singer's photo">
+                     </div>
+                     <div class="singer-text-container">
+                       <h4 class="margin-top-0">Taylor Swift</h4>
+                       <p class="color-orange font-style-italic">Taylor Alison Swift is an American singer-songwriter.</p>
+                       <p>Her narrative songwriting, which often centers around her personal life, has received widespread media coverage. Born in West Reading, Pennsylvania</p>
+                     </div>
+                    </div>
+                </article>
+
+                <article class="display-flex w-50-percent position-relative">
+                  <div class="squares-background-container">
+                  </div>
+                  <div class="display-flex flex-direction-row z-index-10">
+                    <div class="singer-image-container">
+                     <img class="singer-image" src="./assets/justin.jpg" alt="Singer's photo">
+                 </div>
+                 <div class="singer-text-container">
+                   <h4 class="margin-top-0">Justin Bieber</h4>
+                   <p class="color-orange font-style-italic">Justin Drew Bieber is a Canadian singer, songwriter and multi-instrumentalist.</p>
+                   <p>Discovered at age 13 by talent manager Scooter Braun after he had watched his YouTube cover song videos, Bieber was signed to RBMG Records in 2008.</p>
+                </div>
+              </div>
+               </article>
+            </div>
+            <div class="double-article-container display-flex">
+              <article class="display-flex w-50-percent position-relative">
+                <div class="squares-background-container">
+                </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                <div class="singer-image-container">
+                   <img class="singer-image" src="./assets/sheeran.jpg" alt="Singer's photo">
+                </div>
+               <div class="singer-text-container">
+                 <h4 class="margin-top-0">Ed Sheeran</h4>
+                 <p class="color-orange font-style-italic">Edward Christopher Sheeran MBE is an English singer, songwriter, musician, record producer, and actor.</p>
+                 <p>First recording music in 2004, he began to be seen by people over the internet. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations Project.</p>
+               </div>
+              </div>
+             </article>
+               <article class="display-flex w-50-percent positon-relative">
+                 <div class="squares-background-container">
+                 </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                   <div class="singer-image-container">
+                    <img class="singer-image" src="./assets/neha.jpg" alt="Singer's photo">
+                </div>
+                <div class="singer-text-container">
+                  <h4 class="margin-top-0">Christina Aguilera</h4>
+                  <p class="color-orange font-style-italic">Christina María Aguilera is an American singer, songwriter, actress, and television personality.</p>
+                  <p>Her accolades include five Grammy Awards, one Latin Grammy Award, and a star on the Hollywood Walk of Fame.</p>
+               </div>
+             </div>
+              </article>
+         </div>
+         <div class="double-article-container display-flex">
+             <article class="additional-singers-article display-flex w-50-percent">
+               <div class="squares-background-container">
+               </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                 <div class="singer-image-container">
+                  <img class="singer-image" src="./assets/mabel.jpg" alt="Singer's photo">
+              </div>
+              <div class="singer-text-container">
+                <h4 class="margin-top-0">Mabel</h4>
+                <p class="color-orange font-style-italic">Mabel Alabama-Pearl McVey is a British-Swedish singer and songwriter. </p>
+                <p>In 2017, she had her breakthrough with "Finders Keepers", peaking at number eight on the UK Singles Chart.</p>
+             </div>
+           </div>
+            </article>
+
+            <article class="additional-singers-article display-flex w-50-percent margin-5px">
+              <div class="squares-background-container">
+              </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                <div class="singer-image-container">
+                 <img class="singer-image" src="./assets/akon.jpg" alt="Singer's photo">
+             </div>
+             <div class="singer-text-container">
+               <h4 class="margin-top-0">Akon</h4>
+               <p class="color-orange font-style-italic">Aliaune Damala Badara Akon Thiam, also known mononymously as Akon, is a Senegalese-American singer</p>
+               <p>Akon is also songwriter, record producer, entrepreneur, philanthropist, and actor from New Jersey.</p>
+            </div>
+           </div>
+           </article>
+         </div>
+         <!-- these two articles disappear at small screens -->
+         <div class="double-article-container display-flex">
+             <article class="additional-singers-article display-flex w-50-percent">
+               <div class="squares-background-container">
+               </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                 <div class="singer-image-container">
+                  <img class="singer-image" src="./assets/jojo.jpg" alt="Singer's photo">
+              </div>
+              <div class="singer-text-container">
+                <h4 class="margin-top-0">JoJo</h4>
+                <p class="color-orange font-style-italic">Joanna Noëlle Levesque[2] (born December 20, 1990), known professionally as JoJo.</p>
+                <p> is an American singer, songwriter, and actress. Raised in Foxborough, Massachusetts, she began performing in singing competitions and local talent shows from a young age..</p>
+             </div>
+           </div>
+            </article>
+
+            <article class="additional-singers-article display-flex w-50-percent margin-5px">
+              <div class="squares-background-container">
+              </div>
+              <div class="display-flex flex-direction-row z-index-10">
+                <div class="singer-image-container">
+                 <img class="singer-image" src="./assets/justin-timberlake.jpg" alt="Singer's photo">
+             </div>
+             <div class="singer-text-container">
+               <h4 class="margin-top-0">Justin Timberlake</h4>
+               <p class="color-orange font-style-italic">Justin Randall Timberlake (born January 31, 1981), occasionally known by his initials JT</p>
+               <p>is an American singer, songwriter, actor, and record producer.[2] Born and raised in Tennessee, he appeared on the television shows Star Search and The All-New Mickey Mouse Club as a child..</p>
+            </div>
+           </div>
+           </article>
+         </div>
+         <button id="read-more-button" onclick="appear();" class="display-none cursor-pointer">Read More <span class="color-orange">>></span></button>
+      </section>
+   </main>
+   <footer class="margin-top-18px">
+     <div class="background-272a31 padding-top-20px">
+       <h1 class="text-align-center color-d3d3d3  underline-red">Contributors</h1>
+
+       <div class="display-flex flex-direction-row width-50-percent footer-top-div justify-content-space-around padding-left-right-10-percent">
+         <i class="fas fa-drum color-d3d3d3"></i>
+         <i class="fab fa-wordpress color-d3d3d3"></i>
+         <i class="fas fa-trademark color-d3d3d3"></i>
+         <i class="fas fa-ad color-d3d3d3"></i>
+         <i class="fas fa-guitar color-d3d3d3"></i>
+       </div>
+     </div>
+
+     <div class="footer-bottom-div display-flex flex-direction-row padding-left-right-10-percent">
+       <div class="footer-image-container">
+         <a href="index.html"><img class="logo-image margin-auto" src="./assets/logo.png" alt="Logo image"></a>
+       </div>
+       <div>
+         <h3>Concert 2020. All rights reserved</h3>
+         <p>Please feel free to contact us or any of our dearlships, we will be very happy to hear from you..</p>
+       </div>
+      </div>
+     </footer>
+    <script src="index.js">
+   </script>
+  </body>
+</html>

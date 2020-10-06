@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tickets</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+<body class="margin-0">
+  <header id="first-header" class="about-nav-header">
+    <ul class="first-nav margin-0 display-flex justify-content-flex-end">
+      <li><a href="#"><i class="fab fa-facebook color-white"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter color-white"></i></a></li>
+      <li><a href="#" class="text-decoration-none color-white">Log out</a></li>
+    </ul>
+
+    <div class="second-nav-container display-flex padding-left-10-percent">
+      <a href="index.html"><img class="logo-image" src="./assets/logo.png" alt="logo image"></a>
+      <ul class="second-nav display-flex justify-content-flex-end list-style-none">
+        <li><a href="index.html" class="text-decoration-none color-black">Home</a></li>
+        <li><a href="tickets.html" class="text-decoration-none color-orange">Tickets</a></li>
+        <li><a href="about.html" class="text-decoration-none color-black">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <header id="mobile-nav" class="display-none">
+    <nav>
+      <ul>
+        <li class="list-style-none" onclick="mobileNav();"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li class="list-style-none"><ul class="padding-left-0 mobile-nav-ul display-none font-weight-bolder">
+          <li class="list-style-none"><a href="index.html" class="text-decoration-none font-weight-bolder">Home</a></li>
+          <li class="list-style-none"><a href="tickets.html" class="text-decoration-none color-orange font-weight-bolder">Tickets</a></li>
+          <li class="list-style-none"><a href="about.html" class="text-decoration-none font-weight-bolder">About</a></li>
+        </ul>
+      </li>
+     </ul>
+    </nav>
+  </header>
+
+    <main class="margin-top-0">
+      <section class="background-light tickets-section-1">
+      <h1 class="text-align-center margin-top-0 tickets-page-title font-weight-bold">Select Ticket</h1>
+      <p class="text-align-center border-1-px-grey border-radius-10 w-50-percent margin-auto"><span class="color-orange">STEP 1    </span>   Please select the type of your ticket</p>
+       <div class="margin-5-px">
+        <table class="margin-auto width-70-percent table-1">
+          <thead class="background-272a31 text-align-center color-white">
+            <tr>
+            <th>Ticket Type</th>
+            <th>Price</th>
+            <th>Number</th>
+            <th>Additional Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span><input type="checkbox" name="golden-plus" value=""></span>Golden Plus</td>
+              <td>$120</td>
+              <td>Family</td>
+              <td>All inclusive</td>
+            </tr>
+            <tr>
+              <td><span><input type="checkbox" name="golden" value=""></span>Golden</td>
+              <td>$90</td>
+              <td>3 people</td>
+              <td>Dinner + Deserts + Drinks</td>
+            </tr>
+            <tr>
+              <td><span><input type="checkbox" name="platinuim" value=""></span>Platinim</td>
+              <td>$65</td>
+              <td>2 people</td>
+              <td>Drinks + Deserts</td>
+            </tr>
+            <tr>
+              <td><span><input type="checkbox" name="silver" value=""></span>Silver</td>
+              <td>$45</td>
+              <td>1 person</td>
+              <td>Drinks</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-align-center">Select optionals below</h2>
+      <p class="text-align-center border-1-px-grey border-radius-10 w-50-percent margin-auto"><span class="color-orange">STEP 2 </span>Optional front seats & Bingo tickets</p>
+      <div class="margin-5-px">
+       <table class="margin-auto width-70-percent text-align-center border-1-px-grey">
+         <thead class="background-272a31 text-align-center color-white">
+          <tr>
+           <td>Front Seats</td>
+           <td>Price</td>
+           <td>Number</td>
+           <td>Additional Details</td>
+          </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td><span><input type="checkbox" name="yes" value=""></span>Yes</td>
+             <td>$40</td>
+             <td>Family</td>
+             <td>Additional for each person</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+
+     <div class="margin-5-px">
+      <table class="margin-auto width-70-percent table-3 border-1-px-grey text-align-center">
+        <thead class="background-272a31 color-white">
+          <tr>
+          <td>Bingo Ticket</td>
+          <td>Price</td>
+          <td>Discount</td>
+          <td>Additional Details</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span><input type="checkbox" name="bingo-ticket" value="yes"></span>Yes</td>
+            <td>$15</td>
+            <td>Fixed Price</td>
+            <td>Awesome prizes awaiting!</td>
+          </tr>
+        </tbody>
+      </table>
+     </div>
+    </section>
+    <button  class="order-now text-align-center background-orange color-white margin-auto font-weight-bolder" type="button" name="button">Order Now</button>
+  </main>
+
+
+
+
+  <footer class="margin-top-18px">
+    <div class="background-272a31 padding-top-20px">
+      <h1 class="text-align-center color-d3d3d3  underline-red">Contributors</h1>
+
+      <div class="display-flex flex-direction-row width-50-percent footer-top-div justify-content-space-around padding-left-right-10-percent">
+        <i class="fas fa-drum color-d3d3d3"></i>
+        <i class="fab fa-wordpress color-d3d3d3"></i>
+        <i class="fas fa-trademark color-d3d3d3"></i>
+        <i class="fas fa-ad color-d3d3d3"></i>
+        <i class="fas fa-guitar color-d3d3d3"></i>
+      </div>
+    </div>
+
+    <div class="footer-bottom-div display-flex flex-direction-row padding-left-right-10-percent">
+      <div class="footer-image-container">
+        <a href="index.html"><img class="logo-image margin-auto" src="./assets/logo.png" alt="Logo image"></a>
+      </div>
+      <div>
+        <h3>Concert 2020. All rights reserved</h3>
+        <p>Please feel free to contact us or any of our dearlships, we will be very happy to hear from you..</p>
+      </div>
+     </div>
+    </footer>
+   <script src="index.js">
+   </script>
+   <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
+  </body>
+</html>
