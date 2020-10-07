@@ -428,6 +428,10 @@ table tbody tr td {
   padding-left: 10%;
 }
 
+.padding-5px {
+  padding: 5px;
+}
+
 .margin-0 {
   margin: 0;
 }
@@ -454,6 +458,10 @@ table tbody tr td {
 
 .background-color-white {
   background-color: white;
+}
+
+.display-inline-block {
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
