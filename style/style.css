@@ -41,6 +41,10 @@ body {
   font-weight: bold;
 }
 
+.second-nav li a {
+  transition: color 0.5s;
+}
+
 .second-nav li a:hover {
   color: #ec5242;
 }
@@ -81,6 +85,7 @@ main {
   background-color: rgba(242, 246, 245, 0.3);
   padding-top: 15px;
   border: solid transparent 1px;
+  transition: border-color 1s;
 }
 
 .section-2-ul-li:hover {
